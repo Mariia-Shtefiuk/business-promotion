@@ -4,63 +4,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Business promotion</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./index.html"><img src="./images/header/logo.png" alt="logo">Product</a>
-            <ul>
-                <li><a href="./index.html">Product</a></li>
-                <li><a href="./pricing.html">Pricing</a></li>
-                <li><a href="./customer.html">Customers</a></li>
-                <li><a href="">Resources</a></li>
-            </ul>
-        </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
-        </ul>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="header-nav">
+                <a class="header-logo-link" href="./index.html"><img class="header-logo" src="./images/header/logo.png"
+                        width="40px" height="36px" alt="logo">Product</a>
+                <div class="header-nav-container">
+                    <ul class="header-nav-list">
+                        <li class="header-nav-item"><a class="header-item-link" href="./index.html"><span
+                                    class="bold">Product</span></a></li>
+                        <li class="header-nav-item"><a class="header-item-link" href="./pricing.html">Pricing</a></li>
+                        <li class="header-nav-item"><a class="header-item-link" href="./customer.html">Customers</a>
+                        </li>
+                        <li class="header-nav-item"><a class="header-item-link" href="">Resources</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="header-btn-container">
+                <ul class="header-btn-list">
+                    <li class="header-btn-item"><button class="header-btn" type="button">Sign In</button></li>
+                    <li class="header-btn-item"><button class="btn header-btn" type="button">Sign Up</button></li>
+                </ul>
+            </div>
+        </div>
     </header>
 
     <main>
         <!-- #region Hero-->
-        <section>
-            <h1>Work at the speed of thought</h1>
-            <p>Tools, tutorials, design and innovation experts, all in one place! The most intuitive way to imagine your
+        <section class="hero">
+            <h1 class="hero-title">Work at the speed of thought</h1>
+            <p class="hero-text">Tools, tutorials, design and innovation experts, all in one place! The most intuitive
+                way to imagine your
                 next user
                 experience.</p>
-            <ul>
-                <li><button type="button">Get started</button></li>
-                <li><button type="button">Watch the Video</button></li>
+            <ul class="hero-list">
+                <li class="hero-item"><button class="btn hero-btn" type="button">Get started</button></li>
+                <li class="hero-item"><button class="hero-btn" type="button">Watch the Video</button></li>
             </ul>
             <img src="./images/hero/hero.png" alt="hero" width="610" height="555">
         </section>
         <!-- #endregion Hero-->
 
-        <!-- #region Benefits-->
-        <section>
-            <h2>Product was Built Specifically for You</h2>
-            <ul>
-                <li>
-                    <h3>First click tests</h3>
-                    <p>While most people enjoy casino gambling,</p>
-                </li>
-                <li>
-                    <h3>Design surveys</h3>
-                    <p>Sports betting, lottery and bingo playing for the fun</p>
-                </li>
-                <li>
-                    <h3>Preference tests</h3>
-                    <p>The Myspace page defines the individual.</p>
-                </li>
-                <li>
-                    <h3>Five second tests</h3>
-                    <p>Personal choices and the overall personality of the person. </p>
-                </li>
-            </ul>
-            <button type="button">SIGN UP NOW</button>
+        <!-- #region Product-->
+        <section class="product">
+            <div class="container">
+                <h2 class="product-title">Product was Built Specifically for You</h2>
+                <ul class="product-list">
+                    <li class="product-item">
+                        <h3 class="product-subtitle">First click tests</h3>
+                        <p class="product-text">While most people enjoy casino gambling,</p>
+                    </li>
+                    <li class="product-item">
+                        <h3 class="product-subtitle">Design surveys</h3>
+                        <p class="product-text">Sports betting, lottery and bingo playing for the fun</p>
+                    </li>
+                    <li class="product-item">
+                        <h3 class="product-subtitle">Preference tests</h3>
+                        <p class="product-text">The Myspace page defines the individual.</p>
+                    </li>
+                    <li class="product-item">
+                        <h3 class="product-subtitle">Five second tests</h3>
+                        <p class="product-text">Personal choices and the overall personality of the person. </p>
+                    </li>
+                </ul>
+                <button class="btn product-btn" type="button">SIGN UP NOW</button>
+            </div>
         </section>
         <!-- #endregion Benefits-->
 
@@ -281,10 +302,10 @@
         <!-- #endregion Review-->
 
         <!-- #region Promo-->
-        <section>
-            <h2>Join 100 Compannies who boost their business with Product</h2>
-            <button type="button">Get This</button>
-            <img src="./images/promo/graphics.png" alt="graphics" width="351" height="331">
+        <section class="promo">
+            <h2 class="promo-title">Join 100 Compannies who boost their business with Product</h2>
+            <button class="promo-btn" type="button">Get This</button>
+            <img class="promo-img" src="./images/screen1.png" alt="graphics">
         </section>
         <!-- #endregion Promo-->
     </main>
