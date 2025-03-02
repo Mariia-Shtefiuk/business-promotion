@@ -245,6 +245,7 @@ img {
   display: flex;
   align-items: center;
   gap: 84px;
+  margin-bottom: 100px;
 }
 .features-text-content {
   width: 486px;
@@ -302,3 +303,65 @@ img {
 }
 
 /* #endregion Features */
+
+.box {
+  width: 500px;
+  margin: 0 auto;
+  padding: 200px 0;
+}
+.burger {
+  appearance: none;
+}
+
+.burger-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: teal;
+  cursor: pointer;
+}
+
+.burger-icon {
+  position: relative;
+}
+
+.burger-icon,
+.burger-icon::after,
+.burger-icon::before {
+  width: 50px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.burger-icon::after,
+.burger-icon::before {
+  content: "";
+  position: absolute;
+  top: 0;
+}
+
+.burger-icon::after {
+  top: -10px;
+}
+
+.burger-icon::before {
+  top: 10px;
+}
+
+.burger:checked + .burger-btn .burger-icon {
+  background-color: transparent;
+}
+
+.burger:checked + .burger-btn .burger-icon::after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.burger:checked + .burger-btn .burger-icon::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
