@@ -97,6 +97,10 @@ img {
   fill: #fff;
 }
 
+.white {
+  color: #fff;
+}
+
 /* #endregion custom */
 
 /* #region Header */
@@ -520,6 +524,113 @@ img {
 }
 
 /* #endregion Strategies */
+
+/* #region Price */
+.price {
+  padding-top: 85px;
+  padding-bottom: 50px;
+}
+.container {
+}
+.price-title {
+  font-weight: 700;
+  font-size: 34px;
+  color: #22343d;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.price-slogan {
+  font-weight: 500;
+  font-size: 16px;
+  color: #22343d;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.price-list {
+  display: flex;
+  gap: 72px;
+  justify-content: center;
+}
+.price-item {
+  text-align: center;
+  padding: 32px 0;
+  border-radius: 8px;
+  width: 322px;
+  height: 456px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+}
+.price-subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.66667;
+  color: #22343d;
+  margin-bottom: 8px;
+}
+.price-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+
+.price-value-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.price-value {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+  margin-right: 7px;
+}
+
+.price-currency-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.price-currency {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+.price-period {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1875;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.price-sublist {
+}
+.price-sublist-item {
+}
+.price-subtext {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.375;
+  letter-spacing: 0.01em;
+  color: #22343d;
+  margin-bottom: 16px;
+}
+.price-order {
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+}
+/* #endregion Price */
 
 /* #region Burger */
 .box {
