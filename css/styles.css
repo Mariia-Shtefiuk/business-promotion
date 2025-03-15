@@ -108,19 +108,19 @@ img {
   align-items: center;
 }
 
+.logo-icon {
+  display: inline-block;
+}
+
 .logo-link {
   display: flex;
   align-items: center;
+  gap: 16px;
   font-weight: 700;
   font-size: 30px;
   line-height: 0.93;
   color: #173a56;
   margin-right: 237px;
-}
-
-.logo-icon {
-  display: block;
-  margin-right: 16px;
 }
 
 .header-nav {
