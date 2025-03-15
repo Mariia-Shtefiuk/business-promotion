@@ -97,10 +97,6 @@ img {
   fill: #fff;
 }
 
-.white {
-  color: #fff;
-}
-
 /* #endregion custom */
 
 /* #region Header */
@@ -559,13 +555,15 @@ img {
   height: 456px;
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
 }
+
 .price-subtitle {
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.66667;
+  line-height: 1.67;
   color: #22343d;
   margin-bottom: 8px;
 }
+
 .price-text {
   font-weight: 400;
   font-size: 16px;
@@ -584,7 +582,7 @@ img {
 .price-value {
   font-weight: 700;
   font-size: 76px;
-  line-height: 1.31579;
+  line-height: 1.32;
   letter-spacing: 0em;
   text-align: center;
   color: #02897a;
@@ -608,28 +606,51 @@ img {
 .price-period {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.1875;
+  line-height: 1.19;
   letter-spacing: 0.01em;
   color: #afafaf;
 }
 
 .price-sublist {
+  margin-bottom: 30px;
 }
 .price-sublist-item {
+  margin-bottom: 16px;
 }
+
+.price-sublist-item:last-child {
+  margin-bottom: 0;
+}
+
 .price-subtext {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.375;
+  line-height: 1.38;
   letter-spacing: 0.01em;
   color: #22343d;
-  margin-bottom: 16px;
 }
 .price-order {
   border-radius: 8px;
   width: 139px;
   height: 44px;
+  font-weight: 600;
+  font-size: 18px;
 }
+
+.btn-white {
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  background-color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  color: #02897a;
+}
+
+.standart {
+  color: #fff;
+}
+
 /* #endregion Price */
 
 /* #region Burger */
