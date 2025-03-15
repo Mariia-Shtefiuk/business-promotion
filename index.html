@@ -19,10 +19,15 @@
 <body>
     <!-- #region Header-->
     <header class="header">
-        <div class="container header-container">
+        <div class="container header-content">
             <nav class="header-nav">
-                <a class="logo header-logo" href="./index.html"><img class="header-logo-img"
-                        src="./images/header/logo.svg" width="39px" height="36px" alt="logo">Product</a>
+                <a class="logo-link" href="./index.html">
+                    <svg lass="logo-icon" width="39px" height="36px">
+                        <use href="./images/icons.svg#icon-logo"></use>
+                    </svg>
+                    Product
+                </a>
+
                 <ul class="header-nav-list">
                     <li class="nav-list-item"><a class="nav-link" href="./index.html"><span
                                 class="bold">Product</span></a>
@@ -399,38 +404,101 @@
         <!-- #endregion Price-->
 
         <!-- #region Review-->
-        <section>
+        <section class="review">
             <div class="container">
-                <h2>What Clients Say</h2>
-                <p>Problems trying to resolve the conflict between
+                <h2 class="review-title">What Clients Say</h2>
+                <p class="review-slogan">Problems trying to resolve the conflict between
                     the two major realms of Classical physics: Newtonian mechanics</p>
-                <ul>
-                    <li>
-                        <img src="./images/review/rate.png" alt="rate" width="106" height="18">
-                        <p>Product helps you see how many
+                <ul class="review-list">
+                    <li class="review-item">
+                        <div class="review-rate">
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-empty"></use>
+                            </svg>
+                        </div>
+                        <p class="review-text">Product helps you see how many
                             more days you need to work to
                             reach your financial goal.</p>
-                        <img src="./images/review/first-review.png" alt="first-review" width="50" height="50">
-                        <h3>Wahid Ari</h3>
-                        <p>Designer</p>
+                        <div class="review-person">
+                            <img class="review-photo" src="./images/review/first-review.png" alt="first-review"
+                                width="50" height="50">
+                            <div>
+                                <h3 class="review-name">Wahid Ari</h3>
+                                <p class="review-position">Designer</p>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/review/rate.png" alt="rate" width="106" height="18">
-                        <p>Product helps you see how many
+                    <li class="review-item">
+                        <div class="review-rate">
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-empty"></use>
+                            </svg>
+                        </div>
+                        <p class="review-text">Product helps you see how many
                             more days you need to work to
                             reach your financial goal.</p>
-                        <img src="./images/review/second-review.png" alt="second-review" width="50" height="50">
-                        <h3>Wahid Ari</h3>
-                        <p>Designer</p>
+                        <div class="review-person">
+                            <img class="review-photo" src="./images/review/second-review.png" alt="second-review"
+                                width="50" height="50">
+                            <div>
+                                <h3 class="review-name">Wahid Ari</h3>
+                                <p class="review-position">Designer</p>
+                            </div>
+                        </div>
                     </li>
-                    <li>
-                        <img src="./images/review/rate.png" alt="rate" width="106" height="18">
-                        <p>Product helps you see how many
+                    <li class="review-item">
+                        <div class="review-rate">
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-full"></use>
+                            </svg>
+                            <svg class="review-rate-icon" width="18" height="18">
+                                <use href="./images/icons.svg#icon-star-empty"></use>
+                            </svg>
+                        </div>
+                        <p class="review-text">Product helps you see how many
                             more days you need to work to
                             reach your financial goal.</p>
-                        <img src="./images/review/third-review.png" alt="third-review" width="50" height="50">
-                        <h3>Wahid Ari</h3>
-                        <p>Designer</p>
+                        <div class="review-person">
+                            <img class="review-photo" src="./images/review/third-review.png" alt="third-review"
+                                width="50" height="50">
+                            <div>
+                                <h3 class="review-name">Wahid Ari</h3>
+                                <p class="review-position">Designer</p>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -438,18 +506,22 @@
         <!-- #endregion Review-->
 
         <!-- #region Promo-->
-        <section class="promo">
+        <section class="promo ">
             <div class="container">
-                <h2 class="promo-title">Join 100 Compannies who boost their business with Product</h2>
-                <button class="promo-btn" type="button">Get This</button>
-                <img class="promo-img" src="./images/promo/graphics.svg" alt="graphics">
+                <div class="promo-box green">
+                    <div class="promo-text-box">
+                        <h2 class="promo-title">Join 100 Compannies who boost their business with Product</h2>
+                        <button class="promo-btn" type="button">Get This</button>
+                    </div>
+                    <img class="promo-img" src="./images/promo/graphics.svg" alt="graphics">
+                </div>
             </div>
         </section>
         <!-- #endregion Promo-->
     </main>
 
     <!--#region Footer-->
-    <footer>
+    <footer class="footer">
         <div class="container">
             <a href="./index.html"><img src="./images/header/logo.svg" alt="logo">Product</a>
             <h3>Resource</h3>
