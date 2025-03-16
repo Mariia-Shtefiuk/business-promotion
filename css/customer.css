@@ -194,7 +194,6 @@ img {
 .hero-title {
   font-weight: 700;
   font-size: 40px;
-  color: #22343d;
   text-align: center;
   margin-bottom: 50px;
 }
@@ -220,7 +219,6 @@ img {
   font-weight: 700;
   font-size: 34px;
   text-align: center;
-  color: #22343d;
   margin: 0 auto 50px;
 }
 .product-list {
@@ -276,10 +274,10 @@ img {
   font-weight: 700;
   font-size: 34px;
   text-align: center;
-  color: #22343d;
   margin-bottom: 73px;
 }
 .work-list {
+  margin-bottom: 78px;
 }
 .work-item {
   display: flex;
@@ -296,115 +294,98 @@ img {
   align-items: start;
 }
 
+.step {
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 .work-subtitle {
   font-weight: 600;
   font-size: 24px;
   text-align: center;
-  color: #22343d;
+
+  margin-bottom: 16px;
 }
 .work-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.75;
-  color: #22343d;
+  width: 438px;
 }
 .work-btn {
-}
-
-.features {
-  padding-top: 54px;
-  padding-bottom: 75px;
-}
-
-.features-item {
-  display: flex;
-  align-items: center;
-  gap: 84px;
-  margin-bottom: 100px;
-}
-
-.features-item:last-child {
-  margin-bottom: 0;
-}
-
-.features-text-content {
-  width: 486px;
-}
-
-.features-title {
-  font-weight: 700;
-  font-size: 32px;
+  display: block;
+  margin: 0 auto;
+  background-color: #02897a;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
   width: 224px;
-  margin-bottom: 25px;
+  height: 44px;
 }
 
-.features-text {
-  margin-bottom: 30px;
-  line-height: 1.63;
+.work-btn:hover,
+.work-btn:focus {
+  background-color: #fff;
+  color: #02897a;
+  border: 1px solid #02897a;
+}
+/* #endregion work-steps */
+
+/* #region join */
+.join {
+  padding-top: 35px;
+  padding-bottom: 45px;
+  background: linear-gradient(180deg, #f5f5f5 0%, rgba(245, 245, 245, 0) 100%);
 }
 
-.features-list {
-}
-
-.features-item {
-}
-
-.sublist-item {
-  margin-bottom: 25px;
-}
-
-.features-subtitle {
-  margin-bottom: 12px;
-  line-height: 1.63;
-}
-
-.features-item-text {
-  margin-bottom: 25px;
-  line-height: 1.63;
-}
-
-.features-img {
-  width: 540px;
-}
-
-.features-title-support {
+.join-title {
   font-weight: 700;
   font-size: 32px;
-  width: 304px;
-  margin-bottom: 25px;
+  text-align: center;
+  width: 537px;
+  margin: 0 auto 93px;
 }
-
-.support-text {
-  line-height: 1.63;
-  margin-bottom: 30px;
-}
-
-.support-list {
-}
-
-.support-item {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 30px;
-  margin-bottom: 25px;
-}
-
-.support-item-icon {
+.join-list {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 14px;
-  width: 35px;
-  height: 35px;
 }
-
-.support-item-text {
-  line-height: 1.63;
-  width: 386px;
+.join-item {
+  text-align: center;
 }
-
-/* #endregion work-steps */
+.join-img {
+  margin-bottom: 27px;
+  margin-right: 325px;
+}
+.join-subtitle {
+  margin-bottom: 16px;
+  margin-right: 361px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.16667;
+  color: #000;
+}
+.join-sublist {
+  margin-bottom: 12px;
+  margin-right: 276px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+}
+.join-subitem {
+}
+.join-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75;
+  color: #000;
+}
+/* #endregion join */
 
 /* #region Promo */
 .promo {
@@ -508,7 +489,6 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  color: #22343d;
   margin-bottom: 8px;
 }
 .resource-list {
@@ -519,7 +499,6 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 2.19;
-  color: #22343d;
 }
 .legal-box {
   margin-right: 83px;
@@ -528,7 +507,6 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  color: #22343d;
   margin-bottom: 8px;
   width: 105px;
 }
@@ -540,7 +518,6 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 2.19;
-  color: #22343d;
 }
 .subscribe-box {
 }
@@ -548,7 +525,6 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.5;
-  color: #22343d;
   margin-bottom: 30px;
 }
 .subscribe-form {
@@ -601,7 +577,6 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
-  color: #22343d;
   margin-top: 10px;
 }
 
