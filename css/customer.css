@@ -370,6 +370,7 @@ img {
   line-height: 1.514;
   color: #fff;
   margin-bottom: 46px;
+  margin-left: 51px;
 }
 .promo-btn {
   border-radius: 8px;
@@ -379,6 +380,7 @@ img {
   font-weight: 600;
   font-size: 20px;
   color: #02897a;
+  margin-left: 51px;
 }
 
 .promo-btn:hover,

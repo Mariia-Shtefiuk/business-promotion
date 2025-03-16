@@ -747,7 +747,7 @@ img {
 }
 
 .promo-box {
-  padding: 49px 46px 56px 51px;
+  padding: 49px 46px 56px;
   margin: 0 auto;
   border-radius: 32px;
   width: 968px;
@@ -768,6 +768,7 @@ img {
   line-height: 1.514;
   color: #fff;
   margin-bottom: 46px;
+  margin-left: 51px;
 }
 .promo-btn {
   border-radius: 8px;
@@ -777,6 +778,7 @@ img {
   font-weight: 600;
   font-size: 20px;
   color: #02897a;
+  margin-left: 51px;
 }
 
 .promo-btn:hover,
