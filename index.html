@@ -520,27 +520,62 @@
 
     <!--#region Footer-->
     <footer class="footer">
-        <div class="container">
-            <a class="logo-link" href="./index.html">
-                <svg lass="logo-icon" width="39px" height="36px">
-                    <use href="./images/icons.svg#icon-logo"></use>
-                </svg> Product
-            </a>
-            <h3>Resource</h3>
-            <ul>
-                <li><a href="">About Us</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Contact</a></li>
-                <li><a href="">FAQ</a></li>
-            </ul>
-            <h3>Legal Stuff</h3>
-            <ul>
-                <li><a href="">Disclaimer</a></li>
-                <li><a href="">Financing</a></li>
-                <li><a href="">Privacy Policy</a></li>
-            </ul>
-            <p>Made With Love By Figmaland All Right Reserved</p>
+        <div class="container footer-content">
+            <div class="social-box">
+                <a class="logo-link" href="./index.html">
+                    <svg lass="logo-icon" width="39px" height="36px">
+                        <use href="./images/icons.svg#icon-logo"></use>
+                    </svg> Product
+                </a>
+                <ul class="social-list">
+                    <li class="social-item"><a class="social-link" href=""><svg class="social-icon" width="24"
+                                height="24">
+                                <use href="./images/icons.svg#instagram"></use>
+                            </svg></a></li>
+                    <li class="social-item"><a class="social-link" href=""><svg class="social-icon" width="24"
+                                height="24">
+                                <use href="./images/icons.svg#facebook"></use>
+                            </svg></a></li>
+                    <li class="social-item"><a class="social-link" href=""><svg class="social-icon" width="24"
+                                height="24">
+                                <use href="./images/icons.svg#twitter"></use>
+                            </svg></a></li>
+                </ul>
+            </div>
+            <div class="resource-box">
+                <h3 class="resource-subtitle">Resource</h3>
+                <ul class="resource-list">
+                    <li class="resource-item"><a class="resource-link" href="">About Us</a></li>
+                    <li class="resource-item"><a class="resource-link" href="">Blog</a></li>
+                    <li class="resource-item"><a class="resource-link" href="">Contact</a></li>
+                    <li class="resource-item"><a class="resource-link" href="">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="legal-box">
+                <h3 class="legal-subtitle">Legal Stuff</h3>
+                <ul class="legal-list">
+                    <li class="legal-item"><a class="legal-link" href="">Disclaimer</a></li>
+                    <li class="legal-item"><a class="legal-link" href="">Financing</a></li>
+                    <li class="legal-item"><a class="legal-link" href="">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="subscribe-box">
+                <p class="subscribe-text">knowing you're always on the best energy deal.</p>
+                <form class="subscribe-form">
+                    <label class="form-label" for="user-tel">
+                        <div class="input-content">
+                            <input class="form-input" required id="user-tel" name="user-tel"
+                                placeholder="Enter your phone number" type="tel" />
+                            <svg class="form-icon" width="18" height="28">
+                                <use href="./images/icons.svg#icon-mobile-footer"></use>
+                            </svg>
+                        </div>
+                    </label>
+                    <button class="subscribe-btn" type="submit">Sign up Now</button>
+                </form>
+            </div>
         </div>
+        <p class="footer-text">Made With Love By Figmaland All Right Reserved</p>
     </footer>
     <!--#endregion Footer-->
 </body>
